@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-color: rgb(209, 239, 252);
+}
+.block {
+  width: 60%;
+  text-align: justify;
+
+  padding: 20px 50px;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px rgba(231, 228, 228, 0.452);
+}
+h1 {
+  font-weight: normal;
+  color: rgb(37, 37, 117);
+}
+h2 {
+  font-size: larger;
+  color: rgb(29, 29, 95);
+}
+p {
+  color: rgb(73, 73, 73);
+}
+@media screen and (max-width: 600px) {
+  .block {
+    width: 100%;
+    font-size: large;
+  }
+}
